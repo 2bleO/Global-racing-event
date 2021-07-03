@@ -7,7 +7,7 @@
 
 > Web page to Showcase a Fictional Super SportCar Race as Microverse Capstone Project.
 
-![screenshot](Assets/img/screenshot.png)
+![screenshot](/Assets/img/screenshot.png)
 
 [Online Version](https://2bleo.github.io/Global-racing-event/)
 
