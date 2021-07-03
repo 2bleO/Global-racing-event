@@ -1,0 +1,165 @@
+$primary: #ec5242;
+$dark: #272a31;
+$third: #d3d3d3;
+$lato: "Lato", sans-serif;
+$coco: "cocogoose", sans-serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+@font-face {
+  font-family: "cocogoose";
+  src: url(../fonts/Cocogoose.ttf);
+}
+
+footer {
+  padding: 40px 50px;
+
+  i {
+    font-size: 16pt;
+    margin: 5px;
+  }
+}
+
+body {
+  min-width: 559px;
+}
+
+header {
+  justify-content: center;
+  height: 685px;
+  background-image: url(../img/supercars.gif), linear-gradient(#d3d3d3, #d3d3d3fb);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: right;
+}
+
+.navbar {
+  flex-direction: row-reverse;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 2.25rem;
+}
+
+.main-heading {
+  h1 {
+    font-family: $coco;
+    font-size: 36pt;
+    padding: 10px;
+    margin-bottom: 15px;
+    letter-spacing: 3pt;
+    color: $primary;
+  }
+
+  h2 {
+    font-size: 21pt;
+    margin: 10px;
+    color: $primary;
+  }
+
+  p {
+    font-family: $lato;
+    font-size: 13pt;
+    margin: 15px;
+    border: 2px solid white;
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 24pt;
+    font-family: $coco;
+  }
+}
+
+.main-program {
+  color: $third;
+  background-image: url(../img/blackpattern.jpg), linear-gradient(#d3d3d336, #d3d3d336);
+  background-blend-mode: overlay;
+  background-size: cover;
+
+  button {
+    background-color: $primary;
+    border: none;
+    color: $third;
+    font-size: 18pt;
+    padding: 20px 110px;
+    margin: 60px;
+  }
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+
+  h2 {
+    text-align: center;
+    font-family: $lato;
+    font-size: 22pt;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  span {
+    width: 50px;
+    height: 2px;
+    background-color: #ec5242;
+  }
+}
+
+.activity {
+  background-color: #d3d3d323;
+  margin: 20px;
+  padding: 20px;
+
+  i {
+    font-size: 25pt;
+  }
+
+  h5 {
+    font-size: 18pt;
+    color: $primary;
+  }
+
+  p {
+    font-size: 13pt;
+    margin: 0;
+    padding-left: 10px;
+  }
+}
+
+.pilots {
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.pilot {
+  margin: 10px 10px;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: top left;
+
+  img {
+    margin: 10px;
+  }
+}
+
+.pilot-info {
+  margin: 10px;
+
+  hr {
+    width: 20px;
+  }
+}
+
+.partners {
+  color: $third;
+  background-color: $dark;
+  padding-bottom: 50px;
+}
+
+.partners-logos {
+  padding: 10px 50px;
+}

@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@font-face {
+  font-family: "cocogoose";
+  src: url(../fonts/Cocogoose.ttf);
+}
+
+footer {
+  padding: 40px 50px;
+}
+
+footer i {
+  font-size: 16pt;
+  margin: 5px;
+}
+
+body {
+  min-width: 559px;
+}
+
+header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 685px;
+  background-image: url(../img/supercars.gif), -webkit-gradient(linear, left top, left bottom, from(#d3d3d3), to(#d3d3d3fb));
+  background-image: url(../img/supercars.gif), linear-gradient(#d3d3d3, #d3d3d3fb);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: right;
+}
+
+.navbar {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 2.25rem;
+}
+
+.main-heading h1 {
+  font-family: "cocogoose", sans-serif;
+  font-size: 36pt;
+  padding: 10px;
+  margin-bottom: 15px;
+  letter-spacing: 3pt;
+  color: #ec5242;
+}
+
+.main-heading h2 {
+  font-size: 21pt;
+  margin: 10px;
+  color: #ec5242;
+}
+
+.main-heading p {
+  font-family: "Lato", sans-serif;
+  font-size: 13pt;
+  margin: 15px;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+.main-heading h3 {
+  font-size: 24pt;
+  font-family: "cocogoose", sans-serif;
+}
+
+.main-program {
+  color: #d3d3d3;
+  background-image: url(../img/blackpattern.jpg), -webkit-gradient(linear, left top, left bottom, from(#d3d3d336), to(#d3d3d336));
+  background-image: url(../img/blackpattern.jpg), linear-gradient(#d3d3d336, #d3d3d336);
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+.main-program button {
+  background-color: #ec5242;
+  border: none;
+  color: #d3d3d3;
+  font-size: 18pt;
+  padding: 20px 110px;
+  margin: 60px;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.heading h2 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 22pt;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.heading span {
+  width: 50px;
+  height: 2px;
+  background-color: #ec5242;
+}
+
+.activity {
+  background-color: #d3d3d323;
+  margin: 20px;
+  padding: 20px;
+}
+
+.activity i {
+  font-size: 25pt;
+}
+
+.activity h5 {
+  font-size: 18pt;
+  color: #ec5242;
+}
+
+.activity p {
+  font-size: 13pt;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.pilots {
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.pilot {
+  margin: 10px 10px;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.pilot img {
+  margin: 10px;
+}
+
+.pilot-info {
+  margin: 10px;
+}
+
+.pilot-info hr {
+  width: 20px;
+}
+
+.partners {
+  color: #d3d3d3;
+  background-color: #272a31;
+  padding-bottom: 50px;
+}
+
+.partners-logos {
+  padding: 10px 50px;
+}
