@@ -78,7 +78,7 @@ const pilotsMets = {
     // Create Pilot Div //
     pilotsProp.pilots.appendChild(document.createElement('div')).setAttribute('id', pilot.id);
     pilotsProp.pilot = document.getElementById(pilot.id);
-    pilotsProp.pilot.classList.add('col-11', 'd-flex', 'pilot');
+    pilotsProp.pilot.classList.add('col-11', 'col-md-5', 'd-flex', 'pilot');
     // Create Pilot Picture //
     pilotsProp.pilot.appendChild(document.createElement('img')).setAttribute('id', `${pilot.id}-picture`);
     pilotsProp.pilotPicture = document.getElementById(`${pilot.id}-picture`);

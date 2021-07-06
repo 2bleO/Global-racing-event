@@ -4,36 +4,33 @@
   src: url(../fonts/Cocogoose.ttf);
 }
 
-footer {
-  padding: 40px 50px;
-}
-
-footer i {
-  font-size: 16pt;
-  margin: 5px;
+html {
+  font-size: 100%;
 }
 
 body {
   min-width: 320px;
 }
 
+footer {
+  padding: 5.95vh 8.945vw;
+}
+
+footer i {
+  font-size: 1.33rem;
+  margin: 5.95vh 0.894vw;
+}
+
 header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 685px;
   background-image: url(../img/supercars.gif), -webkit-gradient(linear, left top, left bottom, from(#d3d3d3), to(#d3d3d3fb));
   background-image: url(../img/supercars.gif), linear-gradient(#d3d3d3, #d3d3d3fb);
   background-blend-mode: overlay;
   background-size: cover;
   background-position: right;
-}
-
-.navbar {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  padding-bottom: 14.89vh;
 }
 
 .navbar-toggler {
@@ -43,30 +40,36 @@ header {
 
 .main-heading h1 {
   font-family: "cocogoose", sans-serif;
-  font-size: 36pt;
-  padding: 10px;
-  margin-bottom: 15px;
-  letter-spacing: 3pt;
+  font-size: 2.8rem;
+  padding: 1.48vh 1.789vw;
+  margin-bottom: 1.48vh;
+  letter-spacing: 0.25rem;
   color: #ec5242;
 }
 
 .main-heading h2 {
-  font-size: 21pt;
-  margin: 10px;
+  font-size: 1.75rem;
+  margin: 1.48vh 1.789vw;
   color: #ec5242;
 }
 
 .main-heading p {
   font-family: "Lato", sans-serif;
-  font-size: 13pt;
-  margin: 15px;
+  font-size: 1.08rem;
+  margin: 2.23vh 2.683vw;
   border: 2px solid white;
-  padding: 20px;
+  padding: 2.97vh 3.578vw;
+  color: #272a31;
 }
 
 .main-heading h3 {
-  font-size: 24pt;
+  font-size: 2rem;
   font-family: "cocogoose", sans-serif;
+  color: #272a31;
+}
+
+.main-heading h4 {
+  color: #272a31;
 }
 
 .main-program {
@@ -75,15 +78,18 @@ header {
   background-image: url(../img/blackpattern.jpg), linear-gradient(#d3d3d336, #d3d3d336);
   background-blend-mode: overlay;
   background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-program button {
   background-color: #ec5242;
   border: none;
   color: #d3d3d3;
-  font-size: 18pt;
-  padding: 20px 110px;
-  margin: 60px;
+  font-size: 1.5rem;
+  padding: 2.97vh 19.678vw;
+  margin: 8.92vh 10.733vw;
 }
 
 .heading {
@@ -97,74 +103,303 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 4.46vh;
 }
 
 .heading h2 {
   text-align: center;
   font-family: "Lato", sans-serif;
-  font-size: 22pt;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  font-size: 1.83rem;
+  margin-top: 7.44vh;
+  margin-bottom: 2.98vh;
 }
 
 .heading span {
-  width: 50px;
-  height: 2px;
+  width: 8.945vw;
+  height: 0.3vh;
   background-color: #ec5242;
 }
 
 .activity {
   background-color: #d3d3d323;
-  margin: 20px;
-  padding: 20px;
+  margin: 2.97vh 3.578vw;
+  padding: 2.97vh 3.578vw;
 }
 
 .activity i {
-  font-size: 25pt;
+  font-size: 2.08rem;
 }
 
 .activity h5 {
-  font-size: 18pt;
+  font-size: 1.5rem;
   color: #ec5242;
 }
 
 .activity p {
-  font-size: 13pt;
+  font-size: 1.08rem;
   margin: 0;
-  padding-left: 10px;
+  padding-left: 1.789vw;
 }
 
 .pilots {
   background-color: white;
-  padding-bottom: 50px;
+  padding-bottom: 7.44vh;
 }
 
 .pilot {
-  margin: 10px 10px;
-  background-size: 50px 50px;
+  margin: 1.48vh 1.789vw;
+  background-size: 7.44vh 8.945vw;
   background-repeat: no-repeat;
   background-position: top left;
 }
 
 .pilot img {
-  margin: 10px;
+  margin: 1.48vh 1.789vw;
 }
 
 .pilot-info {
-  margin: 10px;
+  margin: 1.48vh 1.789vw;
 }
 
 .pilot-info hr {
-  width: 20px;
+  width: 3.578vw;
 }
 
 .partners {
   color: #d3d3d3;
   background-color: #272a31;
-  padding-bottom: 50px;
+  padding-bottom: 7.44vh;
 }
 
 .partners-logos {
-  padding: 10px 50px;
+  padding: 1.48vh 8.945vw;
+}
+
+/* Media Query */
+@media (min-width: 1px) {
+  html {
+    font-size: 59%;
+  }
+  .social {
+    display: none;
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media (min-width: 336px) {
+  html {
+    font-size: 63%;
+  }
+}
+
+@media (min-width: 359px) {
+  html {
+    font-size: 67%;
+  }
+}
+
+@media (min-width: 375px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (min-width: 425px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 456px) {
+  html {
+    font-size: 86%;
+  }
+}
+
+@media (min-width: 490px) {
+  html {
+    font-size: 92%;
+  }
+}
+
+@media (min-width: 524px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 5.95vh 8.945vw;
+  }
+  footer i {
+    font-size: 1rem;
+    margin: 5.95vh 0.894vw;
+  }
+  footer h5 {
+    font-size: 0.75rem;
+  }
+  footer h6 {
+    font-size: 0.42rem;
+    font-weight: bold;
+  }
+  footer p {
+    font-size: 0.42rem;
+  }
+  header {
+    height: 100vh;
+    padding-bottom: 14.1vh;
+  }
+  .social {
+    display: block;
+    background-color: #272a31;
+    padding: 5px;
+  }
+  .social ul {
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .social li {
+    margin-left: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .social a {
+    font-size: 0.42rem;
+    color: white;
+    text-decoration: none;
+  }
+  .navbar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: white;
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+  .navbar-collapse {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    font-weight: bold;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.75rem;
+    line-height: 15px;
+  }
+  .nav-active-item {
+    border: 3px solid #ec5242;
+  }
+  .nav-item {
+    font-weight: bold;
+  }
+  .nav-item a {
+    font-size: 0.5rem;
+  }
+  .main-heading {
+    padding: 50px;
+  }
+  .main-heading h1 {
+    font-size: 2.5rem;
+  }
+  .main-heading h2 {
+    font-size: 1.58rem;
+  }
+  .main-heading p {
+    font-size: 0.5rem;
+    padding: 2.97vh 1.578vw;
+  }
+  .main-heading h3 {
+    font-size: 1.25rem;
+    padding: 0 3.578vw;
+  }
+  .main-heading h4 {
+    font-size: 0.75rem;
+    padding: 0 3.578vw;
+  }
+  .heading h2 {
+    font-size: 0.92rem;
+  }
+  .heading span {
+    width: 3.906vw;
+  }
+  .activity {
+    background-color: #d3d3d323;
+    margin: 2.97vh 0.5vw;
+    padding: 2.97vh 1vw;
+  }
+  .activity i {
+    font-size: 1.5rem;
+  }
+  .activity h5 {
+    font-size: 0.75rem;
+  }
+  .activity p {
+    font-size: 0.53rem;
+    margin: 0;
+    padding-left: 0;
+  }
+  .main-program button {
+    background-color: transparent;
+    border: none;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #d3d3d3;
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding: 2.97vh 19.678vw;
+    margin: 8.92vh 10.733vw;
+  }
+  .pilot {
+    margin: 1.48vh 1.789vw;
+    background-size: 7.44vh 5.945vw;
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+  .pilot img {
+    margin: 1.48vh 0.789vw;
+  }
+  .pilot-info h5 {
+    font-size: 0.83rem;
+  }
+  .pilot-info p {
+    font-size: 0.42rem;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1024px) {
+  html {
+    font-size: 139%;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1440px) {
+  html {
+    font-size: 197%;
+  }
 }

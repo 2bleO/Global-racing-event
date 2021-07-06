@@ -11,30 +11,30 @@ $coco: "cocogoose", sans-serif;
   src: url(../fonts/Cocogoose.ttf);
 }
 
-footer {
-  padding: 40px 50px;
-
-  i {
-    font-size: 16pt;
-    margin: 5px;
-  }
+html {
+  font-size: 100%;
 }
 
 body {
   min-width: 320px;
 }
 
+footer {
+  padding: 5.95vh 8.945vw;
+
+  i {
+    font-size: 1.33rem;
+    margin: 5.95vh 0.894vw;
+  }
+}
+
 header {
   justify-content: center;
-  height: 685px;
   background-image: url(../img/supercars.gif), linear-gradient(#d3d3d3, #d3d3d3fb);
   background-blend-mode: overlay;
   background-size: cover;
   background-position: right;
-}
-
-.navbar {
-  flex-direction: row-reverse;
+  padding-bottom: 14.89vh;
 }
 
 .navbar-toggler {
@@ -45,30 +45,36 @@ header {
 .main-heading {
   h1 {
     font-family: $coco;
-    font-size: 36pt;
-    padding: 10px;
-    margin-bottom: 15px;
-    letter-spacing: 3pt;
+    font-size: 2.8rem;
+    padding: 1.48vh 1.789vw;
+    margin-bottom: 1.48vh;
+    letter-spacing: 0.25rem;
     color: $primary;
   }
 
   h2 {
-    font-size: 21pt;
-    margin: 10px;
+    font-size: 1.75rem;
+    margin: 1.48vh 1.789vw;
     color: $primary;
   }
 
   p {
     font-family: $lato;
-    font-size: 13pt;
-    margin: 15px;
+    font-size: 1.08rem;
+    margin: 2.23vh 2.683vw;
     border: 2px solid white;
-    padding: 20px;
+    padding: 2.97vh 3.578vw;
+    color: $dark;
   }
 
   h3 {
-    font-size: 24pt;
+    font-size: 2rem;
     font-family: $coco;
+    color: $dark;
+  }
+
+  h4 {
+    color: $dark;
   }
 }
 
@@ -77,14 +83,15 @@ header {
   background-image: url(../img/blackpattern.jpg), linear-gradient(#d3d3d336, #d3d3d336);
   background-blend-mode: overlay;
   background-size: cover;
+  justify-content: center;
 
   button {
     background-color: $primary;
     border: none;
     color: $third;
-    font-size: 18pt;
-    padding: 20px 110px;
-    margin: 60px;
+    font-size: 1.5rem;
+    padding: 2.97vh 19.678vw;
+    margin: 8.92vh 10.733vw;
   }
 }
 
@@ -92,74 +99,319 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 4.46vh;
 
   h2 {
     text-align: center;
     font-family: $lato;
-    font-size: 22pt;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    font-size: 1.83rem;
+    margin-top: 7.44vh;
+    margin-bottom: 2.98vh;
   }
 
   span {
-    width: 50px;
-    height: 2px;
+    width: 8.945vw;
+    height: 0.3vh;
     background-color: #ec5242;
   }
 }
 
 .activity {
   background-color: #d3d3d323;
-  margin: 20px;
-  padding: 20px;
+  margin: 2.97vh 3.578vw;
+  padding: 2.97vh 3.578vw;
 
   i {
-    font-size: 25pt;
+    font-size: 2.08rem;
   }
 
   h5 {
-    font-size: 18pt;
+    font-size: 1.5rem;
     color: $primary;
   }
 
   p {
-    font-size: 13pt;
+    font-size: 1.08rem;
     margin: 0;
-    padding-left: 10px;
+    padding-left: 1.789vw;
   }
 }
 
 .pilots {
   background-color: white;
-  padding-bottom: 50px;
+  padding-bottom: 7.44vh;
 }
 
 .pilot {
-  margin: 10px 10px;
-  background-size: 50px 50px;
+  margin: 1.48vh 1.789vw;
+  background-size: 7.44vh 8.945vw;
   background-repeat: no-repeat;
   background-position: top left;
 
   img {
-    margin: 10px;
+    margin: 1.48vh 1.789vw;
   }
 }
 
 .pilot-info {
-  margin: 10px;
+  margin: 1.48vh 1.789vw;
 
   hr {
-    width: 20px;
+    width: 3.578vw;
   }
 }
 
 .partners {
   color: $third;
   background-color: $dark;
-  padding-bottom: 50px;
+  padding-bottom: 7.44vh;
 }
 
 .partners-logos {
-  padding: 10px 50px;
+  padding: 1.48vh 8.945vw;
+}
+
+/* Media Query */
+@media (min-width: 1px) {
+  html {
+    font-size: 59%;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media (min-width: 336px) {
+  html {
+    font-size: 63%;
+  }
+}
+
+@media (min-width: 359px) {
+  html {
+    font-size: 67%;
+  }
+}
+
+@media (min-width: 375px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (min-width: 425px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 456px) {
+  html {
+    font-size: 86%;
+  }
+}
+
+@media (min-width: 490px) {
+  html {
+    font-size: 92%;
+  }
+}
+
+@media (min-width: 524px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 5.95vh 8.945vw;
+
+    i {
+      font-size: 1rem;
+      margin: 5.95vh 0.894vw;
+    }
+
+    h5 {
+      font-size: 0.75rem;
+    }
+
+    h6 {
+      font-size: 0.42rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 0.42rem;
+    }
+  }
+
+  header {
+    height: 100vh;
+    padding-bottom: 14.1vh;
+  }
+
+  .social {
+    display: block;
+    background-color: $dark;
+    padding: 5px;
+
+    ul {
+      margin: 0;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      align-content: center;
+    }
+
+    li {
+      margin-left: 5px;
+      display: flex;
+    }
+
+    a {
+      font-size: 0.42rem;
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .navbar {
+    flex-direction: row;
+    background-color: white;
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .navbar-brand {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    align-items: center;
+    font-size: 0.75rem;
+    line-height: 15px;
+  }
+
+  .nav-active-item {
+    border: 3px solid $primary;
+  }
+
+  .nav-item {
+    font-weight: bold;
+  }
+
+  .nav-item a {
+    font-size: 0.5rem;
+  }
+
+  .main-heading {
+    padding: 50px;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.58rem;
+    }
+
+    p {
+      font-size: 0.5rem;
+      padding: 2.97vh 1.578vw;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      padding: 0 3.578vw;
+    }
+
+    h4 {
+      font-size: 0.75rem;
+      padding: 0 3.578vw;
+    }
+  }
+
+  .heading {
+    h2 {
+      font-size: 0.92rem;
+    }
+
+    span {
+      width: 3.906vw;
+    }
+  }
+
+  .activity {
+    background-color: #d3d3d323;
+    margin: 2.97vh 0.5vw;
+    padding: 2.97vh 1vw;
+
+    i {
+      font-size: 1.5rem;
+    }
+
+    h5 {
+      font-size: 0.75rem;
+    }
+
+    p {
+      font-size: 0.53rem;
+      margin: 0;
+      padding-left: 0;
+    }
+  }
+
+  .main-program button {
+    background-color: transparent;
+    border: none;
+    text-decoration-line: underline;
+    color: $third;
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding: 2.97vh 19.678vw;
+    margin: 8.92vh 10.733vw;
+  }
+
+  .pilot {
+    margin: 1.48vh 1.789vw;
+    background-size: 7.44vh 5.945vw;
+    background-repeat: no-repeat;
+    background-position: top left;
+
+    img {
+      margin: 1.48vh 0.789vw;
+    }
+  }
+
+  .pilot-info {
+    h5 {
+      font-size: 0.83rem;
+    }
+
+    p {
+      font-size: 0.42rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    html {
+      font-size: 139%;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    html {
+      font-size: 197%;
+    }
+  }
 }
