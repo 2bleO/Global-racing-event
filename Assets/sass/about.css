@@ -32,8 +32,8 @@ footer h6 {
 }
 
 header {
-  background-image: url(../Assets/img/cartiretrakc.jpg), -webkit-gradient(linear, left top, left bottom, from(#868686), to(#808080fb));
-  background-image: url(../Assets/img/cartiretrakc.jpg), linear-gradient(#868686, #808080fb);
+  background-image: url(Assets/img/cartiretrakc.jpg), -webkit-gradient(linear, left top, left bottom, from(#868686), to(#808080fb));
+  background-image: url(Assets/img/cartiretrakc.jpg), linear-gradient(#868686, #808080fb);
   background-blend-mode: overlay;
   background-size: cover;
   background-position: right;
@@ -131,11 +131,11 @@ header {
 }
 
 .past1 {
-  background-image: url(../Assets/img/mercedess-supercar.jpg);
+  background-image: url(Assets/img/mercedess-supercar.jpg);
 }
 
 .past2 {
-  background-image: url(../Assets/img/supercar2.jpg);
+  background-image: url(Assets/img/supercar2.jpg);
 }
 
 @media (min-width: 1px) {
