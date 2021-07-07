@@ -20,11 +20,19 @@ body {
 }
 
 footer {
-  padding: 5.95vh 8.945vw;
+  padding: 1.95vh 6.945vw;
 
   i {
     font-size: 1.33rem;
     margin: 5.95vh 0.894vw;
+  }
+
+  h5 {
+    font-size: 0.7rem;
+  }
+
+  h6 {
+    font-size: 0.5rem;
   }
 }
 
@@ -33,7 +41,15 @@ header {
   background-blend-mode: overlay;
   background-size: cover;
   background-position: right;
-  padding-bottom: 14.89vh;
+  padding-bottom: 4.51vh;
+}
+
+.social {
+  display: none;
+}
+
+.navbar-brand {
+  display: none;
 }
 
 .navbar-toggler {
@@ -48,7 +64,7 @@ header {
 .main-heading {
   h1 {
     font-family: $coco;
-    font-size: 2.8rem;
+    font-size: 1.42rem;
     padding: 1.48vh 1.789vw;
     margin-bottom: 1.48vh;
     letter-spacing: 0.25rem;
@@ -56,14 +72,14 @@ header {
   }
 
   h2 {
-    font-size: 1.75rem;
+    font-size: 1.17rem;
     margin: 1.48vh 1.789vw;
     color: $primary;
   }
 
   p {
     font-family: $lato;
-    font-size: 1.08rem;
+    font-size: 0.58rem;
     margin: 2.23vh 2.683vw;
     border: 2px solid white;
     padding: 2.97vh 3.578vw;
@@ -71,13 +87,14 @@ header {
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-family: $coco;
     color: $dark;
   }
 
   h4 {
     color: $dark;
+    font-size: 0.67rem;
   }
 }
 
@@ -91,7 +108,7 @@ header {
     background-color: $primary;
     border: none;
     color: $third;
-    font-size: 1.5rem;
+    font-size: 0.75rem;
     padding: 2.97vh 19.678vw;
     margin: 8.92vh 10.733vw;
   }
@@ -102,7 +119,7 @@ header {
 
   h2 {
     font-family: $lato;
-    font-size: 1.83rem;
+    font-size: 0.92rem;
     margin-top: 7.44vh;
     margin-bottom: 2.98vh;
   }
@@ -120,16 +137,16 @@ header {
   padding: 2.97vh 3.578vw;
 
   i {
-    font-size: 2.08rem;
+    font-size: 1.25rem;
   }
 
   h5 {
-    font-size: 1.5rem;
+    font-size: 0.83rem;
     color: $primary;
   }
 
   p {
-    font-size: 1.08rem;
+    font-size: 0.58rem;
     margin: 0;
     padding-left: 1.789vw;
   }
@@ -157,6 +174,14 @@ header {
   hr {
     width: 3.578vw;
   }
+
+  h5 {
+    font-size: 0.83rem;
+  }
+
+  p {
+    font-size: 0.5rem;
+  }
 }
 
 .partners {
@@ -170,59 +195,15 @@ header {
 }
 
 /* Media Query */
-@media (min-width: 1px) {
-  html {
-    font-size: 59%;
-  }
-
-  .social {
-    display: none;
-  }
-
-  .navbar-brand {
-    display: none;
-  }
-}
-
-@media (min-width: 336px) {
-  html {
-    font-size: 63%;
-  }
-}
-
-@media (min-width: 359px) {
-  html {
-    font-size: 67%;
-  }
-}
-
 @media (min-width: 375px) {
   html {
-    font-size: 70%;
+    font-size: 115%;
   }
 }
 
-@media (min-width: 425px) {
+@media (min-width: 475px) {
   html {
-    font-size: 80%;
-  }
-}
-
-@media (min-width: 456px) {
-  html {
-    font-size: 86%;
-  }
-}
-
-@media (min-width: 490px) {
-  html {
-    font-size: 92%;
-  }
-}
-
-@media (min-width: 524px) {
-  html {
-    font-size: 100%;
+    font-size: 130%;
   }
 }
 
