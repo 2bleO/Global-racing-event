@@ -14,8 +14,6 @@ body {
 
 footer {
   padding: 1.95vh 6.945vw;
-  color: white;
-  background-color: #272a31;
 }
 
 footer i {
@@ -38,6 +36,14 @@ header {
   background-size: cover;
   background-position: right;
   padding-bottom: 3.72vh;
+}
+
+.social {
+  display: none;
+}
+
+.navbar-brand {
+  display: none;
 }
 
 .navbar-toggler {
@@ -138,15 +144,7 @@ header {
   background-image: url(../img/supercar2.jpg);
 }
 
-@media (min-width: 1px) {
-  .social {
-    display: none;
-  }
-  .navbar-brand {
-    display: none;
-  }
-}
-
+/* Media Queries */
 @media (min-width: 375px) {
   html {
     font-size: 113%;
@@ -165,6 +163,8 @@ header {
   }
   footer {
     padding: 2.95vh 3.945vw;
+    color: white;
+    background-color: #272a31;
   }
   footer i {
     font-size: 1rem;
