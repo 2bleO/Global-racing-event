@@ -13,12 +13,20 @@ body {
 }
 
 footer {
-  padding: 5.95vh 8.945vw;
+  padding: 1.95vh 6.945vw;
 }
 
 footer i {
   font-size: 1.33rem;
   margin: 5.95vh 0.894vw;
+}
+
+footer h5 {
+  font-size: 0.7rem;
+}
+
+footer h6 {
+  font-size: 0.5rem;
 }
 
 header {
@@ -27,7 +35,15 @@ header {
   background-blend-mode: overlay;
   background-size: cover;
   background-position: right;
-  padding-bottom: 14.89vh;
+  padding-bottom: 4.51vh;
+}
+
+.social {
+  display: none;
+}
+
+.navbar-brand {
+  display: none;
 }
 
 .navbar-toggler {
@@ -41,7 +57,7 @@ header {
 
 .main-heading h1 {
   font-family: "cocogoose", sans-serif;
-  font-size: 2.8rem;
+  font-size: 1.42rem;
   padding: 1.48vh 1.789vw;
   margin-bottom: 1.48vh;
   letter-spacing: 0.25rem;
@@ -49,14 +65,14 @@ header {
 }
 
 .main-heading h2 {
-  font-size: 1.75rem;
+  font-size: 1.17rem;
   margin: 1.48vh 1.789vw;
   color: #ec5242;
 }
 
 .main-heading p {
   font-family: "Lato", sans-serif;
-  font-size: 1.08rem;
+  font-size: 0.58rem;
   margin: 2.23vh 2.683vw;
   border: 2px solid white;
   padding: 2.97vh 3.578vw;
@@ -64,13 +80,14 @@ header {
 }
 
 .main-heading h3 {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-family: "cocogoose", sans-serif;
   color: #272a31;
 }
 
 .main-heading h4 {
   color: #272a31;
+  font-size: 0.67rem;
 }
 
 .main-program {
@@ -85,7 +102,7 @@ header {
   background-color: #ec5242;
   border: none;
   color: #d3d3d3;
-  font-size: 1.5rem;
+  font-size: 0.75rem;
   padding: 2.97vh 19.678vw;
   margin: 8.92vh 10.733vw;
 }
@@ -96,7 +113,7 @@ header {
 
 .heading h2 {
   font-family: "Lato", sans-serif;
-  font-size: 1.83rem;
+  font-size: 0.92rem;
   margin-top: 7.44vh;
   margin-bottom: 2.98vh;
 }
@@ -114,16 +131,16 @@ header {
 }
 
 .activity i {
-  font-size: 2.08rem;
+  font-size: 1.25rem;
 }
 
 .activity h5 {
-  font-size: 1.5rem;
+  font-size: 0.83rem;
   color: #ec5242;
 }
 
 .activity p {
-  font-size: 1.08rem;
+  font-size: 0.58rem;
   margin: 0;
   padding-left: 1.789vw;
 }
@@ -152,6 +169,14 @@ header {
   width: 3.578vw;
 }
 
+.pilot-info h5 {
+  font-size: 0.83rem;
+}
+
+.pilot-info p {
+  font-size: 0.5rem;
+}
+
 .partners {
   color: #d3d3d3;
   background-color: #272a31;
@@ -163,57 +188,15 @@ header {
 }
 
 /* Media Query */
-@media (min-width: 1px) {
-  html {
-    font-size: 59%;
-  }
-  .social {
-    display: none;
-  }
-  .navbar-brand {
-    display: none;
-  }
-}
-
-@media (min-width: 336px) {
-  html {
-    font-size: 63%;
-  }
-}
-
-@media (min-width: 359px) {
-  html {
-    font-size: 67%;
-  }
-}
-
 @media (min-width: 375px) {
   html {
-    font-size: 70%;
+    font-size: 115%;
   }
 }
 
-@media (min-width: 425px) {
+@media (min-width: 475px) {
   html {
-    font-size: 80%;
-  }
-}
-
-@media (min-width: 456px) {
-  html {
-    font-size: 86%;
-  }
-}
-
-@media (min-width: 490px) {
-  html {
-    font-size: 92%;
-  }
-}
-
-@media (min-width: 524px) {
-  html {
-    font-size: 100%;
+    font-size: 130%;
   }
 }
 
