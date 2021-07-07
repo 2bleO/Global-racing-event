@@ -10,6 +10,7 @@
 ![screenshot](/Assets/img/screenshot.png)
 
 [Online Version](https://2bleo.github.io/Global-racing-event/)
+[Project Video](https://loom.com/share/7851732929c74821b2df87438105838f)
 
 
 ## Built With
