@@ -29,17 +29,17 @@ footer {
 }
 
 header {
-  justify-content: center;
   background-image: url(../img/supercars.gif), linear-gradient(#d3d3d3, #d3d3d3fb);
   background-blend-mode: overlay;
   background-size: cover;
   background-position: right;
+  //height: 690px;
   padding-bottom: 14.89vh;
 }
 
 .navbar-toggler {
   border: none;
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 
 .main-heading {
@@ -83,7 +83,6 @@ header {
   background-image: url(../img/blackpattern.jpg), linear-gradient(#d3d3d336, #d3d3d336);
   background-blend-mode: overlay;
   background-size: cover;
-  justify-content: center;
 
   button {
     background-color: $primary;
@@ -96,13 +95,9 @@ header {
 }
 
 .heading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 4.46vh;
 
   h2 {
-    text-align: center;
     font-family: $lato;
     font-size: 1.83rem;
     margin-top: 7.44vh;
@@ -252,27 +247,20 @@ header {
   }
 
   header {
-    height: 100vh;
     padding-bottom: 14.1vh;
   }
 
   .social {
-    display: block;
     background-color: $dark;
     padding: 5px;
 
     ul {
       margin: 0;
       list-style: none;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      align-content: center;
     }
 
     li {
       margin-left: 5px;
-      display: flex;
     }
 
     a {
@@ -283,19 +271,12 @@ header {
   }
 
   .navbar {
-    flex-direction: row;
     background-color: white;
     padding-left: 7vw;
     padding-right: 7vw;
   }
 
-  .navbar-collapse {
-    justify-content: flex-end;
-  }
-
   .navbar-brand {
-    display: flex;
-    flex-direction: row-reverse;
     font-weight: bold;
     align-items: center;
     font-size: 0.75rem;

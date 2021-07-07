@@ -25,7 +25,7 @@ const pilots = [
     age: 32,
     picture: 'Assets/img/pilot lambo.png',
     team: pilotsProp.teams.lamborghini,
-    info: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. <hr/> Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    info: '<p style="color:#ec5242"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> <hr/> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</P>',
   },
   {
     id: 'davidWawas',
@@ -33,7 +33,7 @@ const pilots = [
     age: 30,
     picture: 'Assets/img/pilot ferrari.png',
     team: pilotsProp.teams.ferrari,
-    info: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. <hr/> Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    info: '<p style="color:#ec5242"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> <hr/> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</P>',
   },
   {
     id: 'mattTruccio',
@@ -41,7 +41,7 @@ const pilots = [
     age: 28,
     picture: 'Assets/img/pilot porsche.png',
     team: pilotsProp.teams.porsche,
-    info: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. <hr/> Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    info: '<p style="color:#ec5242"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> <hr/> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</P>',
   },
   {
     id: 'peterAltagama',
@@ -49,7 +49,7 @@ const pilots = [
     age: 37,
     picture: 'Assets/img/pilot mclaren.png',
     team: pilotsProp.teams.maclaren,
-    info: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. <hr/> Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    info: '<p style="color:#ec5242"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> <hr/> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</P>',
   },
   {
     id: 'samuelTeteo',
@@ -57,7 +57,7 @@ const pilots = [
     age: 30,
     picture: 'Assets/img/pilot aston.png',
     team: pilotsProp.teams.Aston,
-    info: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. <hr/> Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    info: '<p style="color:#ec5242"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> <hr/> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</P>',
   },
   {
     id: 'lucasMolineo',
@@ -65,7 +65,7 @@ const pilots = [
     age: 30,
     picture: 'Assets/img/pilot mercedes.png',
     team: pilotsProp.teams.Mercedes,
-    info: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. <hr/> Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    info: '<p style="color:#ec5242"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> <hr/> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</P>',
   },
 ];
 const pilotsMets = {
@@ -93,7 +93,7 @@ const pilotsMets = {
     pilotsProp.pilotName = document.getElementById(`${pilot.id}-name`);
     pilotsProp.pilotName.innerText = pilot.name;
     // Create info //
-    pilotsProp.pilotInfo.appendChild(document.createElement('p')).setAttribute('id', `${pilot.id}-main-info`);
+    pilotsProp.pilotInfo.appendChild(document.createElement('div')).setAttribute('id', `${pilot.id}-main-info`);
     pilotsProp.info = document.getElementById(`${pilot.id}-main-info`);
     pilotsProp.info.innerHTML = pilot.info;
     // Create Pilot Team //

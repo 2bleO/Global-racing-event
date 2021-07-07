@@ -44,7 +44,9 @@ Give a ⭐️ if you like this project!
 * [Microverse](https://microverse.org)
 
 
-## 📝 License
+## 📝 Licenses
 
 Original design idea by Cindy Shin in Behance (https://www.behance.net/adagio07).
 The Creative Commons license of the design: (https://creativecommons.org/licenses/by-nc/4.0/)
+
+[Vector de Fondo creado por starline - www.freepik.es] (https://www.freepik.es/vectores/fondo)

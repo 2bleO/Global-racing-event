@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@font-face {
+  font-family: "cocogoose";
+  src: url(../fonts/Cocogoose.ttf);
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  min-width: 320px;
+}
+
+footer {
+  padding: 1.95vh 6.945vw;
+  color: white;
+  background-color: #272a31;
+}
+
+footer i {
+  font-size: 1.33rem;
+  margin: 5.95vh 0.894vw;
+}
+
+footer h5 {
+  font-size: 0.7rem;
+}
+
+footer h6 {
+  font-size: 0.5rem;
+}
+
+header {
+  background-image: url(/Assets/img/cartiretrakc.jpg), -webkit-gradient(linear, left top, left bottom, from(#868686), to(#808080fb));
+  background-image: url(/Assets/img/cartiretrakc.jpg), linear-gradient(#868686, #808080fb);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: right;
+  padding-bottom: 3.72vh;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 2rem;
+}
+
+.main-heading h1 {
+  font-family: "cocogoose", sans-serif;
+  font-size: 1.42rem;
+  font-weight: bold;
+  padding: 1.48vh 1.789vw;
+  margin-bottom: 1.48vh;
+  letter-spacing: 0.25rem;
+  color: #ec5242;
+}
+
+.main-heading h2 {
+  font-size: 1.17rem;
+  margin: 1.48vh 1.789vw;
+  color: #ec5242;
+}
+
+.main-heading p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.58rem;
+  margin: 2.23vh 2.683vw;
+  background-color: white;
+  border: 2px solid #272a31;
+  padding: 2vh 3.3vw;
+  color: #272a31;
+  line-height: 1.3rem;
+}
+
+.main-heading h3 {
+  font-size: 0.58rem;
+}
+
+.main-heading h4 {
+  font-size: 0.58rem;
+  font-weight: bold;
+}
+
+.logo-info p {
+  font-size: 0.5rem;
+}
+
+.heading {
+  margin-bottom: 4.46vh;
+}
+
+.heading h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 0.92rem;
+  margin-top: 4.44vh;
+  margin-bottom: 2.98vh;
+}
+
+.heading span {
+  width: 8.945vw;
+  height: 0.3vh;
+  background-color: #ec5242;
+}
+
+.partners {
+  color: #d3d3d3;
+  background-color: #272a31;
+  padding-bottom: 4.44vh;
+}
+
+.past-races {
+  padding-bottom: 30px;
+}
+
+.past-races p {
+  font-size: 0.5rem;
+}
+
+.past-race {
+  background-blend-mode: overlay;
+  background-color: #ec5242;
+  background-size: cover;
+  padding: 20px;
+  margin: 5px;
+  color: #fff;
+}
+
+.past-race p {
+  font-size: 12px;
+}
+
+.past1 {
+  background-image: url(/Assets/img/mercedess-supercar.jpg);
+}
+
+.past2 {
+  background-image: url(/Assets/img/supercar2.jpg);
+}
+
+@media (min-width: 1px) {
+  .social {
+    display: none;
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media (min-width: 375px) {
+  html {
+    font-size: 113%;
+  }
+}
+
+@media (min-width: 425px) {
+  html {
+    font-size: 130%;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+  footer {
+    padding: 5.95vh 8.945vw;
+  }
+  footer i {
+    font-size: 1rem;
+    margin: 5.95vh 0.894vw;
+  }
+  footer h5 {
+    font-size: 0.75rem;
+  }
+  footer h6 {
+    font-size: 0.42rem;
+    font-weight: bold;
+  }
+  footer p {
+    font-size: 0.42rem;
+  }
+  .social {
+    background-color: #272a31;
+    padding: 5px;
+  }
+  .social ul {
+    margin: 0;
+    list-style: none;
+  }
+  .social li {
+    margin-left: 5px;
+  }
+  .social a {
+    font-size: 0.42rem;
+    color: white;
+    text-decoration: none;
+  }
+  .navbar {
+    background-color: white;
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.75rem;
+    line-height: 15px;
+  }
+  .nav-active-item {
+    border: 3px solid #ec5242;
+  }
+  .nav-item {
+    font-weight: bold;
+  }
+  .nav-item a {
+    font-size: 0.5rem;
+  }
+  .main-heading {
+    padding: 3.44vh 6.51vw;
+  }
+  .main-heading h1 {
+    font-size: 2.3rem;
+  }
+  .main-heading h2 {
+    display: none;
+  }
+  .main-heading p {
+    font-size: 0.5rem;
+    padding: 2.97vh 1.578vw;
+  }
+  .main-heading h3 {
+    font-size: 0.5rem;
+    padding: 0 3.578vw;
+  }
+  .main-heading h4 {
+    font-size: 0.5rem;
+    padding: 0 3.578vw;
+  }
+  .heading h2 {
+    font-size: 0.92rem;
+  }
+  .heading span {
+    width: 3.906vw;
+  }
+  .partners {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 133%;
+  }
+}
