@@ -33,13 +33,16 @@ header {
   background-blend-mode: overlay;
   background-size: cover;
   background-position: right;
-  //height: 690px;
   padding-bottom: 14.89vh;
 }
 
 .navbar-toggler {
   border: none;
-  font-size: 2rem;
+  font-size: 15pt;
+}
+
+.nav-item {
+  font-size: 16px;
 }
 
 .main-heading {

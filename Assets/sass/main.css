@@ -32,7 +32,11 @@ header {
 
 .navbar-toggler {
   border: none;
-  font-size: 2rem;
+  font-size: 15pt;
+}
+
+.nav-item {
+  font-size: 16px;
 }
 
 .main-heading h1 {
